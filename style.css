@@ -97,7 +97,7 @@ input{
 }
 
 button.clicked{
-  background-color: rgb(60, 67, 154);
+  background-color: blue;
   border-color: rgb(60, 67, 154);
   color: white;
   outline-color: rgb(60, 67, 154);
@@ -105,14 +105,13 @@ button.clicked{
 
 button, button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored{
 align-items: center;
-background-color: rgba(0, 0, 0, 0);
+background-color: white;
 border-color: rgb(60, 67, 154);
 border-radius: 4px;
 border-style: solid;
 border-width: 1px;
 box-shadow: none;
 color: rgb(60, 67, 154);
-cursor: default;
 display: inline-flex;
 font-family: Roboto, sans-serif;
 font-size: 14px;
@@ -127,4 +126,5 @@ position: relative;
 text-align: center;
 text-transform: uppercase;
 vertical-align: middle;
+cursor: pointer;
 }
